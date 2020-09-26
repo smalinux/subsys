@@ -1,0 +1,70 @@
+
+0	ch 02		100			fp35		tp132		cp63
+0	ch 03		156
+2	ch 04		60
+2	ch 05		44
+1	ch 06		80
+2	ch 07		46
+2	ch 08		60
+2	ch 09		60
+1	ch 10		65
+3	ch 11		25
+1	ch 12		85
+3	ch 13		30
+2	ch 14		50
+2	ch 15		55
+2	ch 16		40
+3	ch 17		35
+1	ch 18		75
+3	ch 19		20
+
+Chapter 4: Virtual Process Memory 289
+________________________________
+Introduction 289
+Virtual Process Address Space 290
+	Layout of the Process Address Space 290
+	Creating the Layout 294
+Principle of Memory Mappings 297
+Data Structures 298
+	Trees and Lists 299
+	Representation of Regions 300
+	The Priority Search Tree 302
+Operations on Regions 306
+	Associating Virtual Addresses with a Region 306
+	Merging Regions 308
+	Inserting Regions 309
+	Creating Regions 310
+Address Spaces 312
+Memory Mappings 314
+	Creating Mappings 314
+	Removing Mappings 317
+	Nonlinear Mappings 319
+Reverse Mapping 322
+	Data Structures 323
+	Creating a Reverse Mapping 324
+	Using Reverse Mapping 325
+Managing the Heap 327
+Handling of Page Faults 330
+Correction of Userspace Page Faults 336
+	Demand Allocation/Paging 337
+	Anonymous Pages 339
+	Copy on Write 340
+	Getting Nonlinear Mappings 341
+Kernel Page Faults 341
+Copying Data between Kernel and Userspace 344
+Summary 345
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
